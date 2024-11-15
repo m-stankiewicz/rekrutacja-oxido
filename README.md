@@ -122,6 +122,24 @@ python main.py
 </article>
 ```
 
+
+## **Parser Functionality**
+
+This project includes a parser functionality to generate a complete HTML file (`complete.html`) by merging the generated content with the provided template (`szablon.html`).
+
+### **How to Use the Parser**
+
+To use the parser and generate the complete HTML file:
+1. Ensure the `szablon.html` file is present in the root directory.
+2. Run the following command:
+   ```bash
+   python html_parser.py
+   ```
+3. The script will read the `szablon.html` and `artykul.html` files, insert the generated content into the `<body>` of the template, and save the result as `complete.html`.
+
+The resulting `complete.html` can be opened in any web browser for preview.
+
+
 ---
 
 ## **Key Highlights**
